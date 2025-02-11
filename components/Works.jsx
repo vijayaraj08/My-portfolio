@@ -15,8 +15,8 @@ function ProjectCard({
   description,
   tags,
   image,
-  source_code_link,
-  deployed_link,
+  // source_code_link,
+  // deployed_link,
 }) {
   const CHAR_LIMIT = 280;
 
@@ -48,7 +48,7 @@ function ProjectCard({
               onClick={() => window.open(deployed_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <RocketLogo className="w-1/2 h-1/2 mr-[2px] z-10" />
+              {/* <RocketLogo className="w-1/2 h-1/2 mr-[2px] z-10" /> */}
             </div>
           </div>
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -56,7 +56,7 @@ function ProjectCard({
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <GithubLogo className="w-2/3 h-2/3 z-10" />
+          {/* /  <GithubLogo className="w-2/3 h-2/3 z-10" /> */}
             </div>
           </div>
         </div>

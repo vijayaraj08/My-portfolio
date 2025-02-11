@@ -337,7 +337,7 @@ const projects = [
     ],
     image: "/assets/projects/inshoplogo.png",
     // source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-    deployed_link: "https://testcustomer.inshop.vc/",
+    // deployed_link: "https://testcustomer.inshop.vc/",
   },
   {
     name: "AI-Powered Virtual Fitting Room",
