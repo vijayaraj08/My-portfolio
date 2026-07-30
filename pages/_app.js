@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeProvider } from "next-themes";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -56,15 +57,8 @@ export default function App({ Component, pageProps }) {
 
 				<link rel="canonical" href={url} />
 				<link
-					rel="apple-touch-icon"
-					sizes="180x180"
-					href="/assets/icons/favicon/apple-touch-icon.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="32x32"
-					href="/assets/icons/favicon/favicon-32x32.png"
+					rel="shortcut icon"
+					href="/assets/icons/favicon/favicon.ico"
 				/>
 				<link
 					rel="icon"
@@ -80,7 +74,8 @@ export default function App({ Component, pageProps }) {
 
 			<ThemeProvider attribute="class" defaultTheme="dark">
 				<Component {...pageProps} loading={loading} />
-                <Analytics />
+				<Analytics />
+				<SpeedInsights />
 				{loading && <PreLoader />}
 			</ThemeProvider>
 		</>

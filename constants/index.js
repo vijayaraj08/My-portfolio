@@ -212,43 +212,33 @@ const technologies = {
 const experiences = [
   {
     title: "Full Stack Developer",
-    company_name: "Insta VC",
-    icon: "/assets/company/instavclogo.pngf",
+    company_name: "9x technology",
+    icon: "/assets/company/9x-tech.png",
     iconBg: "#E6DEDD",
-    date: "June 2024 - Present",
+    date: "July 2026 - Present",
     points: [
-     " Worked on the development of web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) contributing to both frontend and backend development",   
-     "Designed and implemented responsive user interfaces with React.js, ensuring a seamless and intuitive user experience across various devices.",
+      " Worked on the development of web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) contributing to both frontend and backend development",
+      "Designed and implemented responsive user interfaces with React.js, ensuring a seamless and intuitive user experience across various devices.",
       " Developed backend services and RESTful APIs using Node.js and Express.js, handling user authentication, data processing, and integration with the frontend.",
       "Implemented real-time features and socket communication, enhancing user interaction and engagement within the application",
     ],
+
   },
   {
-    title: "AWS Intern",
-    company_name: "Retech-Techno-solutions",
-    icon: "/assets/company/retech logo.png",
+    title: "Full Stack Developer",
+    company_name: "Insta VC",
+    icon: "/assets/company/instavclogo.png",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "June 2024 - June 2026",
     points: [
-      "Developed and maintained machine learning projects in Python, focusing on data preprocessing,feature selection, and model training " ,
-      " Implemented machine learning algorithms including Linear Regression, Random Forest, and Gradient Boosting for sales forecasting",
-      " Gained hands-on experience with AWS Identity and Access Management (IAM) policies, ensuring secure and appropriate access controls for various AWS resources",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+      "Developing end-to-end features for a real-time stock trading platform, handling both frontend and backend development using the MERN stack.",
+      "Designing responsive and high-performance user interfaces with React.js while building scalable REST APIs using Node.js and Express.js.",
+      "Implementing real-time communication using WebSockets to deliver live market updates, notifications, and interactive trading experiences.",
+      "Optimizing application performance with Redis caching and implementing event-driven architecture using Apache Kafka for reliable and scalable backend communication."
     ],
+
   },
-  // {
-  //   title: "Frontend Developer",
-  //   company_name: "Tech team member at GDSC MVJCE",
-  //   icon: "/assets/company/gdsc-logo.svg",
-  //   iconBg: "#E6DEDD",
-  //   date: "February 2022 - July 2023",
-  //   points: [
-  //     "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-  //     "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-  //     "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-  //     "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
-  //   ],
-  // },
+
 ];
 
 const testimonials = [
@@ -282,7 +272,7 @@ const projects = [
   {
     name: "Inclinic",
     description:
-    "Developed a telemedicine platform with secure video consultations ,Implemented appointment booking and virtual waiting room features ,Ensured HIPAA compliance and data security ,Optimized user interfaces for clinics, doctors, and patients",
+      "Developed a telemedicine platform with secure video consultations ,Implemented appointment booking and virtual waiting room features ,Ensured HIPAA compliance and data security ,Optimized user interfaces for clinics, doctors, and patients",
     tags: [
       {
         name: "Javascript",
@@ -311,8 +301,8 @@ const projects = [
   },
   {
     name: "Inshop",
-    description:"Developed a video conferencing shopping platform, enabling real-time virtual shopping experiences between customers and sales representatives.Implemented interactive video chat features to allow customers to engage with sales associates in real-time for product demonstrations, queries, and personalized shopping experiences.Integrated appointment scheduling and queue management systems to organize and streamline virtual shopping sessions, ensuring efficient customer service and timely interactions.Optimized the user interface (UI) for both customers and sales reps, creating a seamless experience across web and mobile platforms with intuitive navigation and easy access to product catalogs, promotions, and payment options.",
-      
+    description: "Developed a video conferencing shopping platform, enabling real-time virtual shopping experiences between customers and sales representatives.Implemented interactive video chat features to allow customers to engage with sales associates in real-time for product demonstrations, queries, and personalized shopping experiences.Integrated appointment scheduling and queue management systems to organize and streamline virtual shopping sessions, ensuring efficient customer service and timely interactions.Optimized the user interface (UI) for both customers and sales reps, creating a seamless experience across web and mobile platforms with intuitive navigation and easy access to product catalogs, promotions, and payment options.",
+
     tags: [
       {
         name: "React.js",
@@ -342,7 +332,7 @@ const projects = [
   {
     name: "AI-Powered Virtual Fitting Room",
     description:
-    "Developed an AI-powered virtual fitting room using Python, TensorFlow, and 3D body scanning technology to enhance the online shopping experience,Utilized Generative Adversarial Network (GAN) algorithms for accurate size prediction based on 3D body scanning images and implemented deep learning algorithms for personalized styling advice",    
+      "Developed an AI-powered virtual fitting room using Python, TensorFlow, and 3D body scanning technology to enhance the online shopping experience,Utilized Generative Adversarial Network (GAN) algorithms for accurate size prediction based on 3D body scanning images and implemented deep learning algorithms for personalized styling advice",
     // " Utilized Generative Adversarial Network (GAN) algorithms for accurate size prediction based on 3D body scanning images and implemented deep learning algorithms for personalized styling advice",
     tags: [
       {
